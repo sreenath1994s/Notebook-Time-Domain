@@ -1,0 +1,15 @@
+###########################,
+# This table is used input the Kt vs J values,
+# Don't leave any incomplete data here --> could cause error,
+J,Kt
+0,0.5201
+0.11,0.5011
+0.23,0.4573
+0.34,0.4095
+0.45,0.3618
+0.56,0.3108
+0.68,0.2523
+0.79,0.1957
+0.9,0.1397
+1.01,0.0724
+1.13,0.005
