@@ -5,12 +5,12 @@
 ###########################,,,
 # Hull Properties,,,
 parameter,value,,
-LPP,60,,
+L,60,,
 LCB,-0.63,,
 D,7.2,,
 B,16.4,,
-T,6,,
-M,491485.4082,,# Ship Mass  
+d,6,,
+m,4816475,,# Ship Mass  kg
 V_disp,4699,,
 GM_T,1.224,,
 GM_L,2,,
@@ -23,9 +23,9 @@ I_Z,1268451034,,# Moment of inertia about Z - axis --> Yaw Moment of Inertia
 ###########################,,,
 # Hydrodynamic Derivatives,,,
 Yv',-0.6187236,,
-YR',0.33941,,
+Yr',0.33941,,
 Nv',-0.2,,
-NR',-0.0544,,
+Nr',-0.0544,,
 Xvr',0,,
 Xvv',0,,
 Xrr',0,,
@@ -39,11 +39,14 @@ Nvvv',0,,
 Nrrr',0,,
 Xvvvv',0,,
 ###########################,,,
+# Ship Motion Properties,,,
+T_phi,12.15,,# Ship Roll Period (s)
+###########################,,,
 # Propeller & Prop_Hull Interaction Properties,,,
-Nprop,2,,# No. of Propellers
-Pd,3.55,,# Propeller Diameter 
-w,0,,# Wake Fraction
-t,0.1,,# Thrust deduction fraction
+N_prop,2,,# No. of Propellers
+Dp,3.55,,# Propeller Diameter 
+wp,0,,# Wake Fraction
+tp,0.1,,# Thrust deduction fraction
 ###########################,,,
 # Experimental Condtions,,,
 Fn,0.35,,
