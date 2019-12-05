@@ -10,7 +10,7 @@ LCB,-0.63,,
 D,7.2,,
 B,16.4,,
 d,6,,
-m,4816475,,# Ship Mass  kg
+m,4699000,,"# Ship Mass  kg ( this not the actual mass of the real ship, Fresh water density and sea water volume is used to calculate the mass. )"
 V_disp,4699,,
 GM_T,1.224,,
 GM_L,2,,

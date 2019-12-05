@@ -33,9 +33,9 @@ def itr_sol_search(func_name, var_min, var_max):
         if  ( round(solution,4) == 0 ):
             break
         elif ( solution > 0 ):  
-            var_min = var_avg
-        elif ( solution < 0 ):
             var_max = var_avg
+        elif ( solution < 0 ):
+            var_min = var_avg
 
     return var_avg
 
