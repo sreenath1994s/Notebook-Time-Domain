@@ -1,7 +1,7 @@
-###########################,,,
+﻿###########################,,,
 # This input file contains the basic hull data,,,
 # Hag tags are used for comments inside this data file,,,
-# Don�t change the parameter  name ,,,
+# Don’t change the parameter  name ,,,
 ###########################,,,
 # Hull Properties,,,
 parameter,value,,
@@ -40,7 +40,7 @@ Nrrr',0,,
 Xvvvv',0,,
 ###########################,,,
 # Ship Motion Properties,,,
-T_phi,12.15,,# Ship Roll Period (s)
+Tφ,12.15,,# Ship Roll Period (s)
 ###########################,,,
 # Propeller & Prop_Hull Interaction Properties,,,
 N_prop,2,,# No. of Propellers
